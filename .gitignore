@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Biometric / personal data: NEVER publish
+data/faces/
+data/trainer.yml
+data/username.txt
+logs/
+
+# Build output
+build/
+dist/
+*.spec
+
+# IDE
+.idea/
+.vscode/
